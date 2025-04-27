@@ -1,0 +1,314 @@
+@import url(./reset.css);
+@import url(./variables.css);
+
+@font-face {
+    font-family: 'Craftsy';
+    src: url(../assets/fonts/Craftsy.otf) format(opentype);
+    font-weight: normal;
+}
+
+.login-body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/6929681-fundo-abstrato-bokeh-circulo-azul-claro-abstrato-azul-efeito-fundo-azul-claro-fundo-abstrato-gratis-foto.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color-primary);
+    
+}
+
+.Craftec {
+    font-family: var(--font-family);
+    font-size: 2rem;
+    display: flex;
+    color: var(--color-text);
+    padding: 5px 20px 10px 20px;
+    gap: 20px;
+}
+
+.dispositivos {
+    display: flex;
+    color: var(--color-text);
+    padding: 20px 20px 10px 20px;
+    gap: 20px;
+}
+
+.home {
+    background-color: var(--background-color);
+    color: var(--color-text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    font-size: var(--font-size-base);
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+
+}
+.tudo{
+    display: grid; place-items: center;
+}
+.login {
+    color: var(--color-text);
+    display: flex;
+    padding: 20px 20px 10px 20px;
+    padding-left: 400px;
+    gap: 20px;
+}
+
+.titulo {
+    padding-top: 100px;
+}
+
+.formulario-login {
+    padding: 20px 0 20px 0;
+}
+
+input[type="password"] {
+    width: 350px;
+    height: 30px;
+}
+
+input[type="email"] {
+    width: 350px;
+    height: 30px;
+}
+
+.opcao {
+    padding: 10px 0 0 220px;
+}
+
+input[type="checkbox"] {
+    color: var(--color-quarto);
+}
+
+input[type="radio"] {
+    color: var(--color-quarto);
+}
+
+.entrar button {
+    border-radius: 5px;
+    background-color: var(--color-terciary);
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+.entrar {
+    padding: 10px 250px 0 0;
+    border: none;
+}
+
+.formulario-registro {
+    padding: 20px 0 20px 0;
+}
+
+input[type="text"] {
+    width: 350px;
+    height: 30px;
+}
+
+input[type="email"] {
+    width: 350px;
+    height: 30px;
+}
+
+input[type="password"] {
+    width: 350px;
+    height: 30px;
+}
+
+.registro {
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/6929681-fundo-abstrato-bokeh-circulo-azul-claro-abstrato-azul-efeito-fundo-azul-claro-fundo-abstrato-gratis-foto.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color-primary);
+}
+
+.formulario-registro p {
+    color: var(--color-secundary);
+    padding-bottom: 20px;
+}
+
+.formulario-registro2 {
+    align-content: left;
+}
+
+.opcoes {
+    padding: 20px 20px 20px 0;
+    display: flex;
+}
+
+.masculino {
+    padding-right: 10px;
+}
+
+.feminino {
+    padding-right: 10px;
+}
+
+.prefiro {
+    padding-right: 5px;
+}
+
+.paises {
+    padding-top: 20px;
+}
+
+.opcoes2 {
+    padding: 20px 20px 20px 0;
+    display: flex;
+}
+
+.guitarra {
+    padding-right: 10px;
+}
+
+.futebol {
+    padding-right: 10px;
+}
+
+.tenis {
+    padding-right: 7px;
+}
+
+.programacao {
+    padding-left: 5px;
+}
+
+.comentario {
+    width: 350px;
+    height: 150px;
+}
+
+.termos {
+    padding: 20px 10px 20px 0;
+}
+
+.input [type="submit"] {
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-registro button {
+    border-radius: 5px;
+    color: var(--color-text);
+    background-color: var(--color-terciary);
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+.body-home {
+    background-image: url(../assets/images/6929681-fundo-abstrato-bokeh-circulo-azul-claro-abstrato-azul-efeito-fundo-azul-claro-fundo-abstrato-gratis-foto.jpg);
+    font-family: Arial, sans-serif;
+    color: var(--color-quarto);
+    min-height: 100vh;
+}
+
+#home2 {
+    background-color: var(--background-color);
+    color: var(--color-text);
+    display: flex;
+    padding: 10px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.produtos {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: var(--color-text);
+    padding: 10px;
+    border: 1px solid var(--color-quinto);
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--color-primary);
+}
+
+.card img {
+    width: 100%;
+    height: 70%;
+    border-radius: 4px;
+}
+
+.card button {
+    background-color: var(--background-color);
+    color: var(--color-text);
+    border: none;
+    padding: 8px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.sidebar {
+    width: 25%;
+}
+
+.sidebar section {
+    background-color: var(--color-text);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--color-quinto);
+    border-radius: 8px;
+}
+
+.sidebar h2 {
+    background-color: #e6f3ff;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.tutorial-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.tutorial-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.publicidade img {
+    width: 100%;
+    height: 430px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}

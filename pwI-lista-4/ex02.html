@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulário de Sustentabilidade</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: rgb(155, 167, 191);
+        }
+
+        form {
+            background: white;
+            padding: 10px;
+            border: 1px solid black;
+            width: 300px;
+            box-shadow: 2px 0 9px white;
+
+        }
+
+        input,
+        textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        p a {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+
+    
+    </style>
+</head>
+
+<body>
+    <h2>Práticas Sustentáveis</h2>
+    <form>
+        Nome: <input type="text" name="nome">
+        <p>Prática Sustentável Preferida:</p>
+        <label for="reciclagem">Reciclagem</label>
+        <input type="radio" id="reciclagem" name="sustentabilidade" value="Reciclagem">
+
+        <label for="agricultura">Agricultura Orgânica</label>
+        <input type="radio" id="agricultura" name="sustentabilidade" value="Agricultura Orgânica">
+
+        <label for="energia">Uso de Energias Renováveis</label>
+        <input type="radio" id="energia" name="sustentabilidade" value="Uso de Energias Renováveis">
+
+        Comentários: <textarea name="comentario"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+    <p>Para saber mais sobre sustentabilidade, visite <a href="#">Instituto Ambiental</a>.</p>
+</body>
+
+</html>

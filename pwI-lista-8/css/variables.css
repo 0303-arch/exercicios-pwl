@@ -1,0 +1,18 @@
+:root {
+    --font-family: 'Craftsy', sans-serif;
+    --font-size-base: 17px;
+    --font-size-small: 12px;
+    --font-size-large: 20px;
+
+    --spacing-small: 4px;
+    --spacing-medium: 8px;
+    --spacing-large: 16px;
+
+    --background-color: red;
+    --color-text: white;
+    --color-primary: black;
+    --color-secundary: red;
+    --color-terciary: blue;
+    --color-quarto: rgb(76, 76, 76);
+    --color-quinto: #ccc;
+}
